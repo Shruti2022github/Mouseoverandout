@@ -1,0 +1,18 @@
+<html>
+<script>
+function mouse_over()
+{
+document.form1.b1.value="Mouse is moving over me";
+}
+function mouse_out()
+{
+document.form1.b1.value="Move the mouse over me";
+}
+</script>
+<body>
+<form name=form1>
+<input type=button name=b1 value="Move the mouse over me"onmouseover="mouse_over()"onmouseout="mouse_out()">
+<br><br>
+</form>
+</body>
+</html>
